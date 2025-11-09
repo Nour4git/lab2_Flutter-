@@ -36,7 +36,7 @@ Application de  gestion de notes avec authentification sécurisée développée 
 
 - Interface simple et moderne
 
-Support multi-plateforme
+- Multi-plateforme(Android,Desktop,Ios)
 
 # Technologies
 - **Flutter** - Framework UI
