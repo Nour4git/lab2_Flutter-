@@ -46,9 +46,12 @@ flutter run
 # Add Note
 ![](screenshots/c3.png)
 ![](screenshots/c4.png)
-# Edit Note
 ![](screenshots/c5.png)
+# Edit Note
 ![](screenshots/c6.png)
-# Delete Note
 ![](screenshots/c7.png)
 ![](screenshots/c8.png)
+# Delete Note
+![](screenshots/c9.png)
+![](screenshots/c10.png)
+![](screenshots/c11.png)
