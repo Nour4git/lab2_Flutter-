@@ -40,8 +40,8 @@ flutter run
 ![](screenshots/c1.png)
 ![](screenshots/c2.png)
 # NoteScreen 
-![](screenshots/c3.png)
-![](screenshots/c4.png)
+
+![](screenshots/note.png)
 
 # Add Note
 ![](screenshots/c3.png)
