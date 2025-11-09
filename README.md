@@ -1,16 +1,54 @@
-# nbotesapp
+#  Notes App - Flutter
 
-A new Flutter project.
+## Présentation
+Application de prise de notes avec authentification sécurisée développée avec Flutter et Appwrite.
+## Fonctionnalités
+Authentification utilisateur
 
-## Getting Started
+Création, lecture, modification et suppression de notes
 
-This project is a starting point for a Flutter application.
+Données isolées par utilisateur
 
-A few resources to get you started if this is your first Flutter project:
+Interface moderne
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Support multi-plateforme
+## Technologies
+- **Flutter** - Framework UI
+- **Appwrite** - Backend
+- **Dart** - Langage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Aperçu
+
+
+
+## Configuration 
+1. git clone https://github.com/Nour4git/lab2_Flutter-.git
+2. cd notes_app
+3. flutter pub get
+
+## Configuration de fichier .env 
+APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+APPWRITE_PROJECT_ID=votre-id
+APPWRITE_DATABASE_ID=notes_db
+APPWRITE_COLLECTION_ID=notes
+
+## lancer
+flutter run 
+
+## screenshots 
+# RegisterScreen
+![](screenshots/c1.png)
+![](screenshots/c2.png)
+# NoteScreen 
+![](screenshots/c3.png)
+![](screenshots/c4.png)
+
+# Add Note
+![](screenshots/c3.png)
+![](screenshots/c4.png)
+# Edit Note
+![](screenshots/c5.png)
+![](screenshots/c6.png)
+# Delete Note
+![](screenshots/c7.png)
+![](screenshots/c8.png)
