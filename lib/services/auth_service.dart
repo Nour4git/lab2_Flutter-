@@ -21,7 +21,7 @@ class AuthService {
       );
       print('✅ User registered successfully: $email');
     } catch (e) {
-      print('❌ Error during registration: $e');
+      print('Error during registration: $e');
       throw e;
     }
   }
@@ -33,10 +33,10 @@ class AuthService {
         email: email,
         password: password,
       );
-      print('✅ User logged in successfully: $email');
+      print('User logged in successfully: $email');
       return session;
     } catch (e) {
-      print('❌ Error during login: $e');
+      print('Error during login: $e');
       throw e;
     }
   }
@@ -45,9 +45,9 @@ class AuthService {
   Future<void> logout() async {
     try {
       await _account.deleteSession(sessionId: 'current');
-      print('✅ User logged out successfully');
+      print('User logged out successfully');
     } catch (e) {
-      print('❌ Error during logout: $e');
+      print('Error during logout: $e');
       throw e;
     }
   }
@@ -56,10 +56,10 @@ class AuthService {
   Future<dynamic> getCurrentUser() async {
     try {
       final user = await _account.get();
-      print('✅ Current user: ${user.email}');
+      print('Current user: ${user.email}');
       return user;
     } catch (e) {
-      print('❌ Error getting current user: $e');
+      print('Error getting current user: $e');
       return null;
     }
   }

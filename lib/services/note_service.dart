@@ -29,10 +29,10 @@ class NoteService {
         queries: queries,
       );
 
-      print('✅ Successfully fetched ${response.documents.length} notes');
+      print('Successfully fetched ${response.documents.length} notes');
       return response.documents;
     } catch (e) {
-      print('❌ Error getting notes: $e');
+      print('Error getting notes: $e');
       throw e;
     }
   }
@@ -57,10 +57,10 @@ class NoteService {
         data: noteData,
       );
 
-      print('✅ Note created successfully: ${response.$id}');
+      print('Note created successfully: ${response.$id}');
       return response;
     } catch (e) {
-      print('❌ Error creating note: $e');
+      print('Error creating note: $e');
       throw e;
     }
   }
@@ -78,10 +78,10 @@ class NoteService {
         documentId: noteId,
       );
 
-      print('✅ Note deleted successfully');
+      print('Note deleted successfully');
       return true;
     } catch (e) {
-      print('❌ Error deleting note: $e');
+      print('Error deleting note: $e');
       throw e;
     }
   }
@@ -105,10 +105,10 @@ class NoteService {
         data: noteData,
       );
 
-      print('✅ Note updated successfully');
+      print('Note updated successfully');
       return response;
     } catch (e) {
-      print('❌ Error updating note: $e');
+      print('Error updating note: $e');
       throw e;
     }
   }
