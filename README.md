@@ -1,9 +1,11 @@
 #  Notes App - Flutter
 
 # Présentation
-Application de prise de notes avec authentification sécurisée développée avec Flutter et Appwrite.
+
+Application de  gestion de notes avec authentification sécurisée développée avec Flutter et Appwrite.
 
 # screenshots 
+
 ## RegisterScreen
 ![](screenshots/c1.png)
 ![](screenshots/c2.png)
@@ -25,15 +27,17 @@ Application de prise de notes avec authentification sécurisée développée ave
 ![](screenshots/c11.png)
 
 # Fonctionnalités
-Authentification utilisateur
 
-Création, lecture, modification et suppression de notes
+- Authentification utilisateur
 
-Données isolées par utilisateur
+- CRUD (ajouter,modifer,consulter,supprimer) des notes
 
-Interface moderne
+- Données isolées par utilisateur
+
+- Interface simple et moderne
 
 Support multi-plateforme
+
 # Technologies
 - **Flutter** - Framework UI
 - **Appwrite** - Backend
@@ -41,16 +45,19 @@ Support multi-plateforme
 
 
 # Configuration 
+
 1. git clone https://github.com/Nour4git/lab2_Flutter-.git
 2. cd notes_app
 3. flutter pub get
 
 # Configuration de fichier .env 
+
 APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
 APPWRITE_PROJECT_ID=votre-id
 APPWRITE_DATABASE_ID=notes_db
 APPWRITE_COLLECTION_ID=notes
 
 # lancer
+
 flutter run 
 
