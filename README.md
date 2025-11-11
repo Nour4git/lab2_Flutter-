@@ -2,7 +2,7 @@
 
 # Présentation
 
-Application de  gestion de notes avec authentification sécurisée développée avec Flutter et Appwrite.
+Application de gestion de notes avec authentification sécurisée pour la personalisation des notes développée avec Flutter et Appwrite.
 
 # screenshots 
 
