@@ -1,8 +1,9 @@
 #  Notes App - Flutter
 
-# Présentation
+# Overview
 
-Application de gestion de notes avec authentification sécurisée pour la personalisation des notes développée avec Flutter et Appwrite.
+A secure note-taking application with user authentication for personalized notes, developed with Flutter and Appwrite.
+
 
 # screenshots 
 
@@ -26,38 +27,37 @@ Application de gestion de notes avec authentification sécurisée pour la person
 ![](screenshots/c10.png)
 ![](screenshots/c11.png)
 
-# Fonctionnalités
+# Features
 
-- Authentification utilisateur
-
-- CRUD (ajouter,modifer,consulter,supprimer) des notes
-
-- Données isolées par utilisateur
-
-- Interface simple et moderne
-
-- Multi-plateforme(Android,Desktop,Ios)
+- User authentication
+- CRUD operations for notes (Create, Read, Update, Delete)
+- User-specific data isolation
+- Simple and modern interface
+- Cross-platform support (Android, Desktop, iOS)
 
 # Technologies
-- **Flutter** - Framework UI
-- **Appwrite** - Backend
-- **Dart** - Langage
 
+- **Flutter** - UI Framework  
+- **Appwrite** - Backend  
+- **Dart** - Programming Language
 
-# Configuration 
+# Setup
 
-1. git clone https://github.com/Nour4git/lab2_Flutter-.git
-2. cd notes_app
-3. flutter pub get
+1. `git clone https://github.com/Nour4git/lab2_Flutter-.git`
+2. `cd notes_app`
+3. `flutter pub get`
 
-# Configuration de fichier .env 
+# .env File Configuration
 
+```env
 APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
-APPWRITE_PROJECT_ID=votre-id
+APPWRITE_PROJECT_ID=your-project-id
 APPWRITE_DATABASE_ID=notes_db
 APPWRITE_COLLECTION_ID=notes
+```
 
-# lancer
-
+# Run 
 flutter run 
+
+
 
